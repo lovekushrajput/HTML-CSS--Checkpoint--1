@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.body1{
+    text-align: center;
+    line-height: 1.5;
+}
+header{
+    text-align: center;
+    background-color: rgb(7,21,76);
+    padding: 20px;
+
+
+}
+.index-home{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 30px;
+    color: rgb(21,184,58);
+    
+}
+.index-blog {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 30px;
+    color: white;
+
+}
+.blog-home{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 30px;
+    color: white;
+}
+.blog{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+    font-size: 30px;
+    color: rgb(21,184,58);
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding: 20px 180px;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(153,216,202);
+    margin: 10px auto;
+    box-shadow: inset 0 0 0 5px black ,inset 0 0 0 17px  rgb(88,115,226);
+    border: 18px solid rgb(144,255,169);
+    border-radius: 12%;
+  
+}
+.container{
+    text-align: center;
+    margin: 30px;
+}
+.circle{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: rgb(153,216,202);
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-bottom: 5px;
+}
+.circle1{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+.circle2{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: rgb(144,255,169);
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+.circle3{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: rgb(88,115,226);
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+.marker{
+    margin: 0 16px;
+    display: inline-block;
+}
+hr{
+    width: 700px;
+    border: 0.1px dashed rgb(85,89,88);
+
+    
+}
+.parent{
+    width: 660px;
+    border: 2px solid;
+    font-size: 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.childbox{
+    width: 200px;
+    height: 180px;
+    background-color: rgb(218,224,250);
+    margin: 10px;
+    display: inline-block;
+}
+.parent1{
+    width: 660px;
+    border: 2px solid;
+    font-size: 0px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.childbox1{
+    box-sizing: border-box;
+    font-size: 0;
+    width: 200px;
+    height: 180px;
+    background-color: rgb(218,224,250);
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid;
+}
+img{
+
+    margin-left: 30px;
+}
+h3{
+    font-size: 30px;
+    color: rgb(6,19,69);
+    margin-left: 85px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 30px;
+    color: rgb(6,19,69);
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.p1{
+    font-size: 22px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+
+
+}
+.image{
+    display: inline-block;
+    width: 45%;
+
+}
+.para{
+    display: inline-block;
+    width: 45%;
+    
+}
+.btn{
+    border-radius: 29px;
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(25,187,61);
+    color:white;
+    margin-left: 80px;
+    margin-bottom: 1px;
+    
+}
+h5{
+    font-size: 28px;
+    color: rgb(6,19,69);
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p2{
+    font-size: 22px;
+    margin-left: 27px;
+}
+.p3{
+    font-size: 22px;
+    margin-left: 27px;
+    margin-bottom: 10px;
+    
+}
+.article-1{
+    display: inline-block;
+    width: 45%;
+}
+
+a{
+
+    color: rgb(25,187,61);
+    display: inline-block;
+    margin-left: 30px;
+}
+.article-2{
+    margin-left: 65px;
+    display: inline-block;
+    width: 45%;
+}
+.article-info{
+    width: 1220px;
+}
+.child{
+    width:auto;
+    line-height: 30px;
+}
+.child-2{
+    width: auto;
+}
+.article{
+    margin-bottom: 27px;
+    margin-top: 40px;
+}
