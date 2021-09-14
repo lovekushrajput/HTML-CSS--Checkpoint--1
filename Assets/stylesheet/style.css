@@ -62,34 +62,23 @@ header{
 
 
 }
-.index-home{
+.main{
     text-decoration: none;
     text-transform: uppercase;
     margin: 5px;
     font-size: 30px;
+}
+.home-green{
     color: rgb(21,184,58);
-    
 }
-.index-blog {
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 5px;
-    font-size: 30px;
+.blog-white {
     color: white;
+}
 
-}
-.blog-home{
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 5px;
-    font-size: 30px;
+.home-white{
     color: white;
 }
-.blog{
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 5px;
-    font-size: 30px;
+.blog-green{
     color: rgb(21,184,58);
     
 }
@@ -119,50 +108,31 @@ h2{
     text-align: center;
     margin: 30px;
 }
+.marker{
+    display: inline-block;
+}
 .circle{
     width: 21px;
     height: 21px;
     border-radius: 50%;
-    background-color: rgb(153,216,202);
     border: 1px solid black;
     display: inline-block;
     vertical-align: middle;
+    margin-left: 10px;
 
     margin-bottom: 5px;
 }
-.circle1{
-    width: 21px;
-    height: 21px;
-    border-radius: 50%;
-    background-color: black;
-    border: 1px solid black;
-    display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 5px;
+.green{
+    background-color: rgb(21,184,58);
 }
-.circle2{
-    width: 21px;
-    height: 21px;
-    border-radius: 50%;
-    background-color: rgb(144,255,169);
-    border: 1px solid black;
-    display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 5px;
-}
-.circle3{
-    width: 21px;
-    height: 21px;
-    border-radius: 50%;
+.blue{
     background-color: rgb(88,115,226);
-    border: 1px solid black;
-    display: inline-block;
-    vertical-align: middle;
-    margin-bottom: 5px;
 }
-.marker{
-    margin: 0 16px;
-    display: inline-block;
+.black{
+    background-color: black;
+}
+.skyblue{
+    background-color: rgb(218,224,250);
 }
 hr{
     width: 700px;
@@ -184,26 +154,15 @@ hr{
     margin: 10px;
     display: inline-block;
 }
-.parent1{
-    width: 660px;
-    border: 2px solid;
-    font-size: 0px;
-    margin: 0 auto;
+.parentbox{
     margin-top: 40px;
-    margin-bottom: 40px;
 }
-.childbox1{
+.smallbox{
     box-sizing: border-box;
     font-size: 0;
-    width: 200px;
-    height: 180px;
-    background-color: rgb(218,224,250);
-    margin: 10px;
-    display: inline-block;
     border: 2px solid;
 }
 img{
-
     margin-left: 30px;
 }
 h3{
@@ -269,13 +228,6 @@ h5{
     display: inline-block;
     width: 45%;
 }
-
-a{
-
-    color: rgb(25,187,61);
-    display: inline-block;
-    margin-left: 30px;
-}
 .article-2{
     margin-left: 65px;
     display: inline-block;
@@ -294,4 +246,8 @@ a{
 .article{
     margin-bottom: 27px;
     margin-top: 40px;
+}
+a{
+    color: rgb(25,187,61);
+    margin-left: 30px;
 }
